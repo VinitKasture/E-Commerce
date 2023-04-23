@@ -1,0 +1,24 @@
+@import "../../../App.css";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: var(--color-black);
+    background-color: var(--color-grey);
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: var(--font-big);
+}
+
+a {
+    margin: auto 1em;
+    color: var(--color-black);
+    vertical-align: middle;
+}

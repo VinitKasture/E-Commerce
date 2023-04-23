@@ -1,0 +1,27 @@
+@import url("../../../App.css");
+
+img {
+    max-width: 30em;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.Card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1rem auto;
+    max-width: 80em;
+}
+
+.Card2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+@media (max-width: 552px) {
+    .Card {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

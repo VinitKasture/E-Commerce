@@ -1,0 +1,11 @@
+.MuiPaper-root {
+    max-width: 60em;
+}
+
+#buyNowBtn {
+    position: relative;
+    margin: auto;
+    max-width: 60em;
+    left: 50%;
+    transform: translateX(-50%);
+}
